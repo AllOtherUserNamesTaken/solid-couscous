@@ -9,6 +9,8 @@ packages = [{include = "solid_couscous"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
 
 [build-system]
 requires = ["poetry-core"]
